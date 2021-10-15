@@ -1,6 +1,6 @@
 package Catalyst::TraitFor::Request::StrongParameters;
 
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 use Moose::Role;
 use Catalyst::Utils::StrongParameters;
@@ -123,6 +123,10 @@ In a controller:
     }
 
 =head1 DESCRIPTION
+
+B<WARNING>: Renamed to L<Catalyst::TraitFor::Request::StructuredParameters> based on community feedback.
+This is just a release to say that and to tell you to change you Makefile if you are using this.   Don't 
+use it for new code!  I will eventually remove it from the index and it won't receive any new fixes.
 
 WARNING: This is a quick midnight hack and the code could have sharp edges.   Happy to take broken
 test cases.

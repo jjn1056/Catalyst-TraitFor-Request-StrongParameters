@@ -81,6 +81,10 @@ In a controller:
 
 # DESCRIPTION
 
+**WARNING**: Renamed to [Catalyst::TraitFor::Request::StructuredParameters](https://metacpan.org/pod/Catalyst%3A%3ATraitFor%3A%3ARequest%3A%3AStructuredParameters) based on community feedback.
+This is just a release to say that and to tell you to change you Makefile if you are using this.   Don't 
+use it for new code!  I will eventually remove it from the index and it won't receive any new fixes.
+
 WARNING: This is a quick midnight hack and the code could have sharp edges.   Happy to take broken
 test cases.
 
@@ -357,7 +361,7 @@ the same terms as Perl itself.
 
 Hey! **The above document had some coding errors, which are explained below:**
 
-- Around line 163:
+- Around line 167:
 
     Nested L<> are illegal.  Pretending inner one is X<...> so can continue looking for other errors.
 
